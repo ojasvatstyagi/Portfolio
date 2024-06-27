@@ -14,8 +14,8 @@ body {
 
 #header {
     width: 100%;
-    height: 100vh;
-    background-image: url(4k-programming-with-blue-eyeglasses-vj4l8y5fr5lihujl.jpg);
+    height: 90vh;
+    background-image: url(bgImage.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -94,7 +94,7 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 img {
-    width: 100%;
+    width: 70%;
     border-radius: 15px;
 }
 
@@ -132,9 +132,9 @@ nav ul li a:hover::after {
     transition: 0.5s;
 }
 
-/* .tab-links:hover::after{
+.tab-links:hover::after{
 width: 100%;
-} */
+}
 .tab-links.active-link::after {
     width: 50%;
 }
@@ -157,19 +157,19 @@ width: 100%;
     display: block;
 }
 
-/* ----------SERVICES---------- */
-#services {
+/* ----------SKILLS---------- */
+#skills {
     padding: 30px 0;
 }
 
-.services-list {
+.skills-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
 
-.services-list div {
+.skills-list div {
     background: #262626;
     padding: 40px;
     font-size: 15px;
@@ -179,18 +179,18 @@ width: 100%;
     transition: background 0.5s, transform 0.5s;
 }
 
-.services-list div i {
+.skills-list div i {
     font-size: 50px;
     margin-bottom: 30px;
 }
 
-.services-list div h2 {
+.skills-list div h2 {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
 
-.services-list div a {
+.skills-list div a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
@@ -198,30 +198,103 @@ width: 100%;
     display: inline-block;
 }
 
-.services-list div:hover {
+.skills-list div:hover {
     background: #ff004f;
     transform: translateY(-10px);
 }
 
 /* ----------PORTFOLIO---------- */
-#portfolio {
+#certificate {
     padding: 50px 0;
 }
 
-.work-list {
+/* -----------Certificate ----------- */
+.certificates-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
 
-.work {
+.certificates {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
 
-.work img {
+.certificates img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: #ff004f;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 16px;
+    transition: height 0.5s;
+}
+
+.layer h2 {
+    margin-bottom: 30px;
+}
+.certificates:hover img {
+    transform: scale(1.1);
+}
+
+.certificates:hover .layer {
+    height: 100%;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.75s;
+}
+
+.btn:hover {
+    background: #ff004f;
+}
+
+/* -----------projects ----------- */
+
+#project {
+    padding: 50px 0;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.projects {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.projects img {
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -261,14 +334,16 @@ width: 100%;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.work:hover img {
+.projects:hover img {
     transform: scale(1.1);
 }
 
-.work:hover .layer {
+.projects:hover .layer {
     height: 100%;
 }
 
@@ -287,6 +362,7 @@ width: 100%;
 .btn:hover {
     background: #ff004f;
 }
+
 
 /* ----------CONTACT---------- */
 .contact-left {
@@ -382,7 +458,7 @@ nav .fas {
 /* ----------CSS FOR SMALL SCREEN---------- */
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(4k-programming-with-blue-eyeglasses-vj4l8y5fr5lihujl.jpg);
+        background-image: url(bgImage.jpg);
     }
 
     .header-text {
@@ -421,7 +497,7 @@ nav .fas {
 
     /* Adjust the header image and text size for small screens */
     #header {
-        background-image: url(4k-programming-with-blue-eyeglasses-vj4l8y5fr5lihujl.jpg);
+        background-image: url(bgImage.jpg);
     }
 
     .header-text {
