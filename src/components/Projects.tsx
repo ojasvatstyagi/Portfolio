@@ -17,7 +17,7 @@ const Projects = () => {
       title: "J.A.M.E.S",
       description:
         "Judicial Administrative Management and Execution System, a full-stack case management platform to streamline court operations. Includes role-based portals for public, lawyers, and judges.",
-      image: "src/assets/projects/james.png",
+      image: "assets/projects/james.png",
       technologies: ["HTML", "CSS", "MySQL", "PHP", "JavaScript", "Bootstrap"],
       github: "https://github.com/ojasvatstyagi/J.A.M.E.S-DBMS-Project",
       demo: "#",
@@ -27,7 +27,7 @@ const Projects = () => {
       title: "AirSavvy: Smart Flight Management System",
       description:
         "A flight booking and reservation application with modules for user registration, admin control, and flight listings. Built using Spring Boot and JSP during my Infosys internship.",
-      image: "src/assets/projects/airsavvy.png",
+      image: "assets/projects/airsavvy.png",
       technologies: [
         "Spring Boot",
         "MySQL",
@@ -45,7 +45,7 @@ const Projects = () => {
       title: "WanderWise: Tour Planner Desktop App",
       description:
         "Java Swing-based desktop application for managing travel bookings, user details, and hotel packages. Uses JDBC for database interaction and a simple GUI for usability.",
-      image: "src/assets/projects/wanderwise.png",
+      image: "assets/projects/wanderwise.png",
       technologies: ["Java Swing", "JDBC", "MySQL", "Java"],
       github:
         "https://github.com/ojasvatstyagi/Travel--Management-Application--JavaSwing",
@@ -56,7 +56,7 @@ const Projects = () => {
       title: "Peerospace",
       description:
         "A collaborative platform where users can find teammates for projects, form teams, assign tasks, and give peer feedback. Built with modern full-stack tools and Firebase OAuth.",
-      image: "src/assets/projects/peerospace.png",
+      image: "assets/projects/peerospace.png",
       technologies: [
         "React",
         "Spring Boot",
@@ -90,7 +90,7 @@ const Projects = () => {
       title: "EzCheck: Modern Visitor Management Solution",
       description:
         "A role-based web app for managing company visitor entries with QR codes, blacklist verification, visit approvals, and dashboards for Admin, Host, Visitor, and Guard roles.",
-      image: "src/assets/projects/EzCheck.png",
+      image: "assets/projects/EzCheck.png",
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       github: "https://github.com/ojasvatstyagi/EzCheck",
       demo: "#",

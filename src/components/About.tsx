@@ -61,7 +61,7 @@ const About = () => {
               >
                 <div className="bg-dark-900 rounded-full p-8 h-96 w-96 flex items-center justify-center">
                   <img
-                    src="src/assets/profile-pic.png"
+                    src="assets/profile-pic.png"
                     alt="Profile"
                     className="w-full h-full object-cover rounded-full"
                     loading="lazy"

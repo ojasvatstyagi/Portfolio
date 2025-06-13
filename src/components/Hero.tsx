@@ -68,7 +68,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             <motion.a
-              href="src/assets/Resume-Ojas.pdf"
+              href="assets/Resume-Ojas.pdf"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{

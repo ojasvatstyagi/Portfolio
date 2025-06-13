@@ -10,7 +10,7 @@ const Certificates = () => {
       date: "2024",
       description:
         "Comprehensive training in frontend (HTML, CSS, JavaScript) and backend (Spring Boot, REST APIs), along with database and deployment fundamentals.",
-      image: "src/assets/certificates/coursera.png",
+      image: "assets/certificates/coursera.png",
       skills: ["Java", "Spring Boot", "HTML", "CSS", "REST APIs"],
       credentialId: "K8MMQL5A22M4",
       url: "https://www.coursera.org/account/accomplishments/specialization/K8MMQL5A22M4",
@@ -22,7 +22,7 @@ const Certificates = () => {
       date: "2025",
       description:
         "Introduced to core AWS services like EC2, S3, IAM, Lambda, and deployment practices. Focused on scalability, security, and cloud-native architecture.",
-      image: "src/assets/certificates/aws.png",
+      image: "assets/certificates/aws.png",
       skills: ["AWS", "Cloud Computing", "AWS Amplify", "S3", "EC2", "Lambda"],
       credentialId: "Tj5V7eef",
       url: "https://www.credly.com/go/Tj5V7eef",
@@ -34,7 +34,7 @@ const Certificates = () => {
       date: "2024",
       description:
         "Hands-on training in Git CLI, advanced GitHub collaboration, branching strategies, and pull requests in real-world projects.",
-      image: "src/assets/certificates/git.png",
+      image: "assets/certificates/git.png",
       skills: ["Git", "GitHub", "Version Control", "Team Workflow"],
       credentialId: "8c_GCswj3Ie168mRyiC92",
       url: "https://certifications.geekster.in/8c_GCswj3Ie168mRyiC92-geekster.pdf",
@@ -46,7 +46,7 @@ const Certificates = () => {
       date: "2024",
       description:
         "Built multiple responsive projects using HTML5 and CSS3, focusing on grid, flexbox, accessibility, and mobile-first principles.",
-      image: "src/assets/certificates/freecodecamp.png",
+      image: "assets/certificates/freecodecamp.png",
       skills: ["HTML", "CSS", "Flexbox", "Responsive UI"],
       credentialId: "OjasVats",
       url: "https://www.freecodecamp.org/certification/OjasVats/responsive-web-design",
