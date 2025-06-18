@@ -27,7 +27,7 @@ const Projects = () => {
       title: "AirSavvy: Smart Flight Management System",
       description:
         "A flight booking and reservation application with modules for user registration, admin control, and flight listings. Built using Spring Boot and JSP during my Infosys internship.",
-      image: "assets/projects/airsavvy.png",
+      image: "assets/projects/AirSavvy.png",
       technologies: [
         "Spring Boot",
         "MySQL",
@@ -45,7 +45,7 @@ const Projects = () => {
       title: "WanderWise: Tour Planner Desktop App",
       description:
         "Java Swing-based desktop application for managing travel bookings, user details, and hotel packages. Uses JDBC for database interaction and a simple GUI for usability.",
-      image: "assets/projects/wanderwise.png",
+      image: "assets/projects/WanderWise.png",
       technologies: ["Java Swing", "JDBC", "MySQL", "Java"],
       github:
         "https://github.com/ojasvatstyagi/Travel--Management-Application--JavaSwing",
@@ -56,7 +56,7 @@ const Projects = () => {
       title: "Peerospace",
       description:
         "A collaborative platform where users can find teammates for projects, form teams, assign tasks, and give peer feedback. Built with modern full-stack tools and Firebase OAuth.",
-      image: "assets/projects/peerospace.png",
+      image: "assets/projects/Peerospace.png",
       technologies: [
         "React",
         "Spring Boot",
