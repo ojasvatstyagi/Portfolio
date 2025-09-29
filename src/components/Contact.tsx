@@ -25,8 +25,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "ojastyagi753@gmail.com",
-      href: "mailto:ojastyagi753@gmail.com",
+      value: "ojas.vats.tyagi@gmail.com",
+      href: "mailto:ojas.vats.tyagi@gmail.com",
     },
     {
       icon: <Phone className="w-6 h-6" />,
@@ -38,7 +38,7 @@ const Contact = () => {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
       value:
-        "Personal Address: Roorkee, Uttarakhand, IndiaWork Address: Bengaluru, India",
+        "Personal Address: Roorkee, Uttarakhand, India\nWork Address: Bengaluru, India",
       href: "#",
     },
   ];
